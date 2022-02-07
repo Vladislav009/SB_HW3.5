@@ -16,6 +16,7 @@
 		0640E3D927AC0667001C69EE /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0640E3D827AC0667001C69EE /* ContactView.swift */; };
 		0640E3DB27AC0677001C69EE /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0640E3DA27AC0677001C69EE /* ContactDetailView.swift */; };
 		0640E3DD27AC068D001C69EE /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0640E3DC27AC068D001C69EE /* NumberView.swift */; };
+		064ED71527B1091700E90B5D /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064ED71427B1091700E90B5D /* CustomBackButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0640E3D827AC0667001C69EE /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		0640E3DA27AC0677001C69EE /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
 		0640E3DC27AC068D001C69EE /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
+		064ED71427B1091700E90B5D /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		0640E3C827AC05B5001C69EE /* SB_HW3.5 */ = {
 			isa = PBXGroup;
 			children = (
+				064ED71327B1090300E90B5D /* Modifiers */,
 				0610FD2927AC0AC0008B6F44 /* Models */,
 				0610FD2827AC0ABB008B6F44 /* Storages */,
 				0640E3D727AC062E001C69EE /* Views */,
@@ -104,6 +107,14 @@
 				0640E3DC27AC068D001C69EE /* NumberView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		064ED71327B1090300E90B5D /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				064ED71427B1091700E90B5D /* CustomBackButton.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0640E3DB27AC0677001C69EE /* ContactDetailView.swift in Sources */,
+				064ED71527B1091700E90B5D /* CustomBackButton.swift in Sources */,
 				0610FD2B27AC0AD8008B6F44 /* DataManager.swift in Sources */,
 				0640E3D927AC0667001C69EE /* ContactView.swift in Sources */,
 				0640E3CC27AC05B5001C69EE /* ContentView.swift in Sources */,

@@ -12,12 +12,12 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            ContactView()
+            ContactView(persons: personsInforamtion)
                 .tabItem {
                     Image(systemName: "person.3.fill")
                     Text("Contacts")
                 }
-            NumberView()
+            NumberView(persons: personsInforamtion)
                 .tabItem {
                     Image(systemName: "phone.fill")
                     Text("Numbers")

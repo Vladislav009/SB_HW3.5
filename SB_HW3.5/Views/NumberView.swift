@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct NumberView: View {
+    let persons: [Person]
+    
     var body: some View {
-        Text("Numbers")
+        NavigationView {
+                   List(persons) { person in
+                       Section(person.fullName) {
+                           Label(person.details[1], systemImage: "phone")
+                           Label(person.details[0], systemImage: "tray")
+                       }
+                   }
+                   .listStyle(.plain)
+                   .navigationTitle("Numbers")
+               }
     }
 }
 
 struct NumberView_Previews: PreviewProvider {
     static var previews: some View {
-        NumberView()
+        NumberView(persons: Person.getPersons())
     }
 }
